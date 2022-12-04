@@ -1,0 +1,89 @@
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #9a99a1;
+    margin: -10px;
+    text-align: right;
+}
+
+.logo img{ 
+    width: 20%;
+    padding-right: 1080px ;
+}
+
+main{
+    margin-top: 15px;
+    text-align: center;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#p{
+    background-color:#9a99a1;
+}
+#p::selection{
+    color: #c6bed1;
+}
+
+.personalizado::selection{
+    color:#67607ac2;
+    background-color:#b2b1b9;
+}
+
+.personalizado1::selection{
+    background-color:#b2b1b9;
+}
+
+.conteudo{
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px;
+    margin: 15px 10px 25px 10px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    color: #49406198;
+}
+
+.h{
+
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px;
+    margin: 15px 10px 25px 10px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px;
+    color: #08101a98;
+}
+.h::selection{
+    background-color: #49406198;
+}
+.rodape{
+    color:#49406198;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+#hino{
+    display:flow-root
+
+}
+
+body{
+    background: linear-gradient(to right, #d3d2da, #c6bed1);
+}
+
+#video{
+    margin-left: 155px;
+}
+
+h1{
+    color: #765b999d;
+    background: linear-gradient(to right, rgba(144, 126, 153, 0.356), #c6bed1);
+    padding-left: 18px;
+}
+
+.conteudo:hover{
+  background:rgb(236, 236, 236);
+}

@@ -1,0 +1,56 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #2B4040, #798C83);
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #2a3b3b;
+        border-radius: 5px; 
+        margin-top: 10px;
+}
+.logo img{ 
+        width: 40%; 
+        padding-top: 10px;
+}
+.navegacao a{
+        color: #adb9b0;
+        text-decoration: none; 
+        float: right; 
+        padding: 10px;
+}
+.navegacao{
+    overflow: hidden; 
+}
+.navegacao a:hover{
+    color: #798C83;
+    }
+    .principal{
+        display: flex;
+    }
+    .conteudo{
+        background-color: gainsboro;
+        text-align: justify;
+        padding: 15px;
+        margin: 15px 10px 25px 10px;
+        float: left;
+        border-radius: 5px;
+        box-shadow: 10px 10px 10px;
+        color: #08101a98;
+    
+    }
+    .rodape{
+        color: darkgray;
+        font-size: 10px;
+        text-align: center;
+    
+    }
+    @media screen and (max-width:600px) { 
+        body, .principal, .conteudo{ 
+            width: 100%;
+            flex-direction:column;
+            padding: 0px;
+    
+        }
+    }
